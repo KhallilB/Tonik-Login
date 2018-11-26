@@ -5,14 +5,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 //Components
 import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
 
 //Routes
 const appRoutes: Routes = [
-
+  { path: '', component: LandingComponent },
 ]
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
