@@ -6,8 +6,8 @@ import { Routes, RouterModule } from '@angular/router';
 //Components
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NavbarLoggedInComponent } from './navbar-logged-in/navbar-logged-in.component';
+import { NavbarComponent } from './nav/navbar/navbar.component';
+import { NavbarLoggedInComponent } from './nav/navbar-logged-in/navbar-logged-in.component';
 
 //Routes
 const appRoutes: Routes = [
